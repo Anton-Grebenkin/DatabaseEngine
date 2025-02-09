@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseEngine.Core", "src\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E8BD8BFE-B9DC-421B-BA25-65C27CC8F11B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{8DD032B5-E29C-41B2-B00A-D696B0DAEBAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseEngine.Core.Tests", "DatabaseEngine.Core.Tests\DatabaseEngine.Core.Tests.csproj", "{4E498FE3-A690-4049-A9AA-5D05E0CB211F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +21,17 @@ Global
 		{BE8E9D8F-0589-445E-B5F6-EECDF0391230}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE8E9D8F-0589-445E-B5F6-EECDF0391230}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE8E9D8F-0589-445E-B5F6-EECDF0391230}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E498FE3-A690-4049-A9AA-5D05E0CB211F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E498FE3-A690-4049-A9AA-5D05E0CB211F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E498FE3-A690-4049-A9AA-5D05E0CB211F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E498FE3-A690-4049-A9AA-5D05E0CB211F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{BE8E9D8F-0589-445E-B5F6-EECDF0391230} = {E8BD8BFE-B9DC-421B-BA25-65C27CC8F11B}
+		{4E498FE3-A690-4049-A9AA-5D05E0CB211F} = {8DD032B5-E29C-41B2-B00A-D696B0DAEBAB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {255C4B45-201D-4A57-8036-E33CEA4D1C9B}
